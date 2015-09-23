@@ -14,10 +14,11 @@
 }
 
 .octocat img {
-  margin: 0;
+  margin: 0 0 10px 0;
   max-width: 300px;
   border-radius: 5px;
   border: 1px solid grey;
+
 }
 
 .image-footer span {
@@ -36,6 +37,12 @@
   content:"#";
   color: #808080;
 }
+.image-caption span {
+  vertical-align: text-top;
+}
+.image-caption a {
+  vertical-align: text-top;
+}
 
 div.image-caption:after {
   content: "";
@@ -46,17 +53,15 @@ div.image-caption:after {
   border-color: #808080 transparent transparent transparent;
   position: absolute;
   top: 302px;
-  left: 283px;
-
-
+  left: 281px
 
 }
 .image-caption {
   float: right;
   text-align: center;
   font-size: 16px;
-  line-height: 10px; 
-  margin-top: 10px 0;
+  line-height: 20px; 
+  
 }
 ul.authors {
   padding: 0px;
@@ -70,7 +75,6 @@ ul.authors {
 .authors img {
   max-width: 30px;
   float: right;
-  margin-top: 10px 0;
   border-radius: 10px;
 
 } 
