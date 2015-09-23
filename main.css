@@ -30,7 +30,11 @@
    line-height: 10px;
    padding: 15px 0;
    margin-top: 10px 0;
-
+   color: #808080;
+}
+.image-number:before {
+  content:"#";
+  color: #808080;
 }
 
 div.image-caption:after {
@@ -38,11 +42,11 @@ div.image-caption:after {
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 20px 10px 0 10px;
-  border-color: #000000 transparent transparent transparent;
+  border-width: 10px 10px 0 10px;
+  border-color: #808080 transparent transparent transparent;
   position: absolute;
-  top: 300px;
-  left: 250px;
+  top: 302px;
+  left: 283px;
 
 
 
