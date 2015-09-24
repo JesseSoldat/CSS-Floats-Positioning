@@ -1,0 +1,64 @@
+/*element reset*/
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+img {
+  max-width: 100%;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/*main object*/
+.octocat {
+  width: 300px;
+  display: inline-block;
+  margin-right: 10px;
+  border-bottom: 1px solid #DEDEDE;
+  padding-bottom: 5px;
+}
+
+.octocat img{
+  border: 1px solid #DEDEDE;
+}
+
+/*footer area*/
+.image-footer {
+  padding: 10px 0;
+  position: relative;
+  
+}
+.image-footer:before {
+  content:"";
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 10px 8.5px 0 8.5px;
+  border-color: #DEDEDE transparent transparent transparent;
+  position: absolute;
+  top: -4px;
+  right: 0;
+}
+.image-number {
+  float: left;
+  margin-top: 7px;
+}
+.image-number:before {
+  content: "#";
+}
+.image-caption {
+  float: right;
+}
+
+/*authors area*/
+.authors {
+ display: inline-block;
+  vertical-align: middle;
+
+}
+.authors img {
+  width: 25px;
+}
