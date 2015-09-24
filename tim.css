@@ -7,16 +7,20 @@ ul {
 img {
   max-width: 100%;
 }
+
 a {
   text-decoration: none;
   color: black;
 }
+=======
+
 
 /*main object*/
 .octocat {
   width: 300px;
   display: inline-block;
   margin-right: 10px;
+
   border-bottom: 1px solid #DEDEDE;
   padding-bottom: 5px;
 }
@@ -59,6 +63,7 @@ a {
   vertical-align: middle;
 
 }
+
 .authors img {
   width: 25px;
 }
